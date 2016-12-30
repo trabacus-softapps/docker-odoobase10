@@ -21,4 +21,5 @@ run mkdir -p /opt/odoo/{bin,etc,sources/odoo/addons,additional_addons,data} && \
 run mkdir -p /opt/odoo/var/{run,log,egg-cache,ftp}
 
 run cp /pd_build/sources/odoo.conf /opt/odoo/etc/odoo.conf
+run cp -r /pd_build/sources/product_manufacturer /opt/odoo/additional_addons/
 run chown -R odoo /opt/odoo
